@@ -1,9 +1,10 @@
 import React from 'react'
 import LogoImage from '../../assets/Group 3748.png'
+import styles from './Logo.module'
 
 const Logo = () => {
   return (
-    <img src={LogoImage} alt='Logo' width={67} height={34} />
+    <img className={styles.logo} src={LogoImage} alt='Logo' />
   )
 }
 
