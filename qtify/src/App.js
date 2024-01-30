@@ -1,13 +1,24 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from './components/Hero/Hero'
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { fetchTopAlbums } from "./api/api";
 
 function App() {
-  const [data,setData] = useState([]);
+  const [topAlbumsData,setTopAlbumsData] = useState([]);
 
-  const generateTopAlbums = () => {
-
+  const generateTopAlbums = async () => {
+    try{
+      const data = await fetchTopAlbums();
+      setTopAlbumsData(data);
+    }
+    catch(err){
+      console.error(err);
+    }
   };
+
+  useEffect(() => {
+    generateTopAlbums();
+  },[]);
 
   return (
     <div >
