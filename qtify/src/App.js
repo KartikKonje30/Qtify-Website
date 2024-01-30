@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from './components/Hero/Hero'
 import { useState, useEffect } from "react";
 import { fetchTopAlbums } from "./api/api";
+import Card from './components/Card/Card';
 
 function App() {
   const [topAlbumsData,setTopAlbumsData] = useState([]);
@@ -24,6 +25,11 @@ function App() {
     <div >
       <Navbar />
       <Hero />
+      {
+        topAlbumsData.map((topAlbum) => (
+          <Card data={topAlbum} type="album" key={topAlbum.id}/>
+        ))
+      }
     </div>
   );
 }
