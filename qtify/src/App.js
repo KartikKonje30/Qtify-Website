@@ -109,7 +109,7 @@ const generateData = async () => {
       type="album"
       filteredDataValues={data}
       />
-      <Section 
+      {/* <Section 
       data={songsData} 
       title="Songs" 
       type="song" 
@@ -118,7 +118,7 @@ const generateData = async () => {
       value={value}
       handleToggle={handleToggle}
       handleChange={handleChange}
-      />
+      /> */}
       </div>
     </div>
   );
