@@ -25,7 +25,7 @@ Check out the live version of Qtify:
 
 ## 📸 Preview
 
-![Qtify Screenshot](https://user-images.githubusercontent.com/your-image-id/preview.png)
+![Qtify Screenshot](https://drive.google.com/file/d/1Suv-mlTXLI_irdbdorDU4aB-vQYsAuOJ/view?usp=sharing)
 
 ---
 
