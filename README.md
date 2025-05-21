@@ -23,12 +23,6 @@ Check out the live version of Qtify:
 
 ---
 
-## 📸 Preview
-
-![Qtify Screenshot](https://drive.google.com/file/d/1Suv-mlTXLI_irdbdorDU4aB-vQYsAuOJ/view?usp=sharing)
-
----
-
 ## 📂 Features
 
 - 🎵 Dynamic rendering of albums and playlists
